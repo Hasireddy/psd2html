@@ -1,0 +1,15 @@
+header {
+    background-image: url(photoshop/design-assets/bgk-header.png);
+    
+}
+.navbar a {
+    color: aqua;
+    text-decoration: none;
+    text-align: right;
+}
+.navbar a:visited {
+    color: aqua;
+}
+.navbar a:hover {
+    color: aqua;
+}
