@@ -1,15 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+}
 header {
     background-image: url(photoshop/design-assets/bgk-header.png);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: max-content;
+    
+}
+navbar {
     
 }
 .navbar a {
-    color: aqua;
+    color: white;
     text-decoration: none;
     text-align: right;
+    text-transform: uppercase;
+}
+.home a:visited {
+    color: aqua;
 }
 .navbar a:visited {
-    color: aqua;
+    color: white;
 }
+
 .navbar a:hover {
     color: aqua;
+}
+header div h1 {
+    color: white;
+}
+hr {
+    width: 60px;
+    color: aqua;
+}
+header div p {
+    color: white;
+    text-align: center;
+
+
+}
+.button {
+
 }
