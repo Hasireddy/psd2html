@@ -11,8 +11,20 @@ header {
     height: max-content;
     
 }
+.logo {
+    text-align: left;
+    padding: 10px 30px;
+    margin: 10px 10px;
+}
+.tajam_logo {
+    float: left;
+    margin: 0px 20px;
+}
+.logo p {
+    color: aqua;
+}
 navbar {
-    
+    text-align: right;
 }
 .navbar a {
     color: white;
@@ -27,22 +39,39 @@ navbar {
     color: white;
 }
 
-.navbar a:hover {
+a .home:hover {
     color: aqua;
+}
+div {
+    padding: 150px;
 }
 header div h1 {
     color: white;
+    text-align: center;
+    margin: 20px 50px;
 }
 hr {
     width: 60px;
-    color: aqua;
+    border-top: 1px solid aqua;
 }
 header div p {
     color: white;
     text-align: center;
-
+    margin: 10px 10px;
 
 }
 .button {
-
+    background-color: transparent;
+    border: aqua 1px solid;
+    border-radius: 1px;
+    color: aqua;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
