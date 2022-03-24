@@ -9,6 +9,149 @@ body {
   width: 100%;
 }
 
+/* Maria part starts here */
+
+header {
+  background-image: url(photoshop/design-assets/bgk-header.png);
+  margin: 0px 0px 50px 0px;
+  padding: 0;
+  width: 100%;
+  height: max-content;
+  
+}
+.navbar {
+  margin:0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.navbar div {
+  margin: 0px;
+  padding: 0;    
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.tajam_logo {
+  float: left;
+  margin: 0px 10px 0px 150px;
+}
+#tajam {
+  color: aqua;
+  margin: 0px;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.navbar a {
+  
+  color: white;
+  text-decoration: none;
+  text-align: right;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+p {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.nav_menu a {
+  padding: 0;
+  margin: 10px 13px;
+}
+#aqua {
+  color: aqua;
+}
+.navbar a:visited {
+  color: white;
+}
+
+a .home:hover {
+  color: aqua;
+}
+
+header div {
+  padding: 150px;
+}
+
+header div h1 {
+  color: white;
+  text-align: center;
+  margin: 20px 50px;
+}
+.maria-hr {
+  width: 60px;
+  border-top: 1px solid aqua;
+}
+header div p {
+  color: white;
+  text-align: center;
+  margin: 10px 10px;
+
+}
+.button {
+  background-color: transparent;
+  border: aqua 1px solid;
+  border-radius: 1px;
+  color: aqua;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+/* My story*/
+
+.story {
+  margin-top: 10px;
+  padding-top: 0;
+  width: 1270px;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+.our_story {
+  
+   padding-left: 0;
+   margin-right: 50px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+
+}
+
+.our_story h1 {
+padding: 0;
+margin: 0;
+}
+
+.button2 {
+  background-color: transparent;
+  border: aqua 1px solid;
+  border-radius: 1px;
+  color: aqua;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 20px 0;
+  padding: 10px;
+ 
+}
+.story div {
+   padding-top: 0;
+   margin-top: 100;
+}
+
+/* Lilian part starts here */
+
 .watch {
   position: relative;
   width: 100%;
@@ -57,7 +200,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-hr {
+.lilian-hr {
     margin: 20px auto 70px;
     width: 50px;
 }
