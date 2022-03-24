@@ -11,28 +11,43 @@ header {
     height: max-content;
     
 }
-.logo {
-    text-align: left;
-    padding: 10px 30px;
-    margin: 10px 10px;
+.navbar {
+    margin:0;
+    padding: 0;
+    
 }
+.navbar div {
+    margin: 0px;
+    padding: 0;    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
 .tajam_logo {
     float: left;
-    margin: 0px 20px;
+    margin: 0px 10px 0px 150px;
 }
-.logo p {
+#tajam {
     color: aqua;
+    margin: 0px;
+    font-size: 28px;
 }
-navbar {
-    text-align: right;
-}
+
 .navbar a {
+    
     color: white;
     text-decoration: none;
     text-align: right;
     text-transform: uppercase;
+    vertical-align: middle;
 }
-.home a:visited {
+
+.nav_menu a {
+    padding: 0;
+    margin: 10px 13px;
+}
+#aqua {
     color: aqua;
 }
 .navbar a:visited {
