@@ -34,23 +34,21 @@
 
   .clients
   {
+    
     background-color: white;
-    text-align: center;
+    text-align: left;
     display:flex;
     justify-content:center;
     width:80%;
     margin-left: 10%;
     margin-right: 10%;
-    text-align:left;
     color:black;
+    height:300px;
   }
-  .logos
-  {
-    width:50%;
-  
-  }
+ 
   .feedback
   {
+    
     flex-wrap:wrap;
   }
   .feedback input{
@@ -70,15 +68,7 @@
      border-color: gray;
      width:80%;
   }
-  .last
- {
-   text-align: center;
-   color:green; 
-   border-color: aquamarine;
-   background-color: white;
-   height:20px;
-   width:50px;
-}
+ 
   input{
     text-align: center;
     color: green;
@@ -86,6 +76,11 @@
 
   h6{
     font-style:bold ;
+  }
+  .logo1
+  {
+    width:50%;
+    
   }
 
   .logo1 img
@@ -95,3 +90,10 @@
    margin:5px;
 
   }
+.logos
+{
+  display:inline-flexbox;
+  width:50%;
+  align-items: center;
+  /*flex-wrap:wrap;*/
+}
