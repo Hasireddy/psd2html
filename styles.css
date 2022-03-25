@@ -411,3 +411,138 @@ h6 {
     padding-right: 10%;
     padding-bottom: 20px;
 }
+
+/* Isaiah's part starts here */
+
+h1
+{
+  font family : verdana;
+  font-weight:normal;
+  font-size : 50px;
+  color: white;
+  text-align: center;
+
+}
+
+h2
+{
+  color:green;
+  font-size:16px;
+  text-align:center;
+  text-decoration:underline;
+}
+body
+{
+  text-align: center;
+}
+
+footer p
+{
+  color:rgb(199, 179, 212);
+  font-size:16px;
+}
+img{
+  text-align: center;
+}
+
+footer{
+  display: flex;
+  align-content: space-between;
+  background-image: url('photoshop/design-assets/bgk-footer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 2px;
+  font-size: 13px;
+  line-height: 20px;
+  width: 100%;
+  color: white;
+  text-align: left;
+  height: 450px;  
+}
+
+
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  /*flex-wrap: wrap;*/
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.col {
+  flex-basis: auto;
+  padding: 50px;
+  
+  }
+
+
+footer h2{
+  color: aliceblue;
+  padding: 5px;
+  font-family: Arial;
+  text-align: left;
+  font-size: 14px;
+  text-decoration: none;
+
+}
+
+footer p{
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+::placeholder {
+  outline: 0rem;
+  opacity:0.9;
+  font-size: 12px;
+  text-align: center;
+  background: none;
+    
+  
+}
+
+.copyright{
+  color:rgb(199, 179, 212);;
+  font-size: 12px;
+  text-align: right;
+  }
+
+  .privacy{
+    color: rgb(199, 179, 212);;
+    font-size: 12px;
+  }
+
+  input#image-button{
+    display: inline-flex;
+    background: #ccc url('/photoshop/design-assets/png/paper122.png') no-repeat center;
+    height: 16px;
+    background-color: gray;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+  }
+
+  #image-button{
+    outline-color: white;
+    background: transparent;
+    width: 75px;
+    height:75px
+    
+    
+  }
+
+  .btn{
+     background: transparent;
+     width: auto;
+     height: 40px;
+  }
+
+  .footerlogo{
+    color:rgb(199, 179, 212);
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+  }
