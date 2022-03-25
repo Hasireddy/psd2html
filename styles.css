@@ -1,99 +1,94 @@
 .d1 {
     border: 1px solid black;
-    background-image:url("photoshop/design-assets/bgk-header.png");
+    background-image: url("photoshop/design-assets/bgk-header.png");
     text-align: center;
-    
-  }
-  .imagediv {
-    width:80%;
-    padding:2%;
-    display:flex;
-    justify-content:space-around;
+}
+
+.imagediv {
+    width: 80%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
     margin-left: 10%;
     margin-right: 10%;
-    text-align:center;
-  }
-  .profile {
+    text-align: center;
+}
+
+.profile {
     border: 1px solid white;
     margin-right: 2%;
     margin-left: 2%;
-    float:left;
-    margin-top:2%;
-  
-  
-  }
-  .photo {
-    background-color: aliceblue;
-    height:200px;
-    width:200px
-    
-  }
-  body{
-      color:white;
-  }
+    float: left;
+    margin-top: 2%;
+}
 
-  .clients
-  {
-    
+.photo {
+    background-color: aliceblue;
+    height: 200px;
+    width: 200px
+}
+
+body {
+    color: white;
+}
+
+.clients {
     background-color: white;
-    text-align: left;
-    display:flex;
-    justify-content:center;
-    width:80%;
+    /* text-align: left;*/
+    width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    color:black;
-    height:300px;
-  }
- 
-  .feedback
-  {
-    
-    flex-wrap:wrap;
-  }
-  .feedback input{
-    text-align: left;
-     margin-top: 6px;
-     color: gray;
-     border-radius: 2px;
-     border-color: gray;
-     width:80%;
-  }
+    color: black;
+    height: 500px;
+    display: flex;
+}
 
-  .feedback textarea{
+.feedback {
+    /*flex-wrap:wrap;*/
+    width: 50%;
+}
+
+.feedback input {
     text-align: left;
-     margin-top: 6px;
-     color: gray;
-     border-radius: 2px;
-     border-color: gray;
-     width:80%;
-  }
- 
-  input{
+    margin-top: 15px;
+    border-radius: 3px;
+    width: 80%;
+    border: 2px solid grey;
+    color: gray;
+}
+
+.feedback textarea {
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 3px;
+    width: 82%;
+    border: 2px solid gray;
+    color: gray;
+}
+
+input {
     text-align: center;
-    color: green;
-  }
+    color: rgb(24, 231, 231);
+    border-color: rgb(24, 231, 231);
+    width: auto;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 10px;
+}
 
-  h6{
-    font-style:bold ;
-  }
-  .logo1
-  {
-    width:50%;
-    
-  }
+h6 {
+    font-style: bold;
+}
 
-  .logo1 img
-  {
-   width:100px;
-   height:50px;
-   margin:5px;
+.logos {
+    padding: 5px;
+    width: 50%;
+}
 
-  }
-.logos
-{
-  display:inline-flexbox;
-  width:50%;
-  align-items: center;
-  /*flex-wrap:wrap;*/
+.logos img {
+    width: 28%;
+    height: 45px;
+    padding-right: 10%;
+    padding-bottom: 20px;
 }
