@@ -447,7 +447,7 @@ img{
 
 footer{
   display: flex;
-  align-content: space-between;
+  flex-direction: column;
   background-image: url('photoshop/design-assets/bgk-footer.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -463,8 +463,8 @@ footer{
 
 
 .row {
-  width: 85%;
-  margin: auto;
+  width: 70%;
+  margin: 50px auto 0;
   display: flex;
   /*flex-wrap: wrap;*/
   align-items: flex-start;
@@ -473,8 +473,7 @@ footer{
 
 .col {
   flex-basis: auto;
-  padding: 50px;
-  
+  margin: 0 20px;  
   }
 
 
@@ -495,7 +494,7 @@ footer p{
 }
 
 ::placeholder {
-  outline: 0rem;
+  outline: none;
   opacity:0.9;
   font-size: 12px;
   text-align: center;
@@ -504,34 +503,66 @@ footer p{
   
 }
 
+.button {
+  display: flex;
+}
+
+.smicon {
+  display: flex;
+}
+
+.smicon img {
+  margin: 0 3px;
+}
+
 .copyright{
   color:rgb(199, 179, 212);;
   font-size: 12px;
-  text-align: right;
+  width: 55%;
+  display: flex;
+  margin: 0 auto;
   }
 
   .privacy{
     color: rgb(199, 179, 212);;
     font-size: 12px;
+    width: 50%;
   }
 
-  input#image-button{
+  .copyright-text {
+    width: 50%;
+    text-align: right;
+  }
+
+  input.form-submit-btn {
     display: inline-flex;
     background: #ccc url('/photoshop/design-assets/png/paper122.png') no-repeat center;
-    height: 16px;
     background-color: gray;
     width: 50px;
     height: 40px;
     position: absolute;
   }
 
-  #image-button{
-    outline-color: white;
-    background: transparent;
+  .stay-touch {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form {
+    display: flex;
+  }
+
+  .form-submit-btn{
+    outline: none;
+    border: none;
+    background-color: grey;
+    margin-left: 10px;
     width: 75px;
-    height:75px
-    
-    
+    height: 40px;  
+  }
+
+  .studio-header {
+    margin-bottom: 20px;
   }
 
   .btn{
@@ -541,8 +572,9 @@ footer p{
   }
 
   .footerlogo{
-    color:rgb(199, 179, 212);
+    color: aqua;
     font-family: sans-serif;
     font-weight: lighter;
     font-size: 20px;
+    margin-bottom: 20px;
   }
