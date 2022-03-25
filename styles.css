@@ -366,7 +366,8 @@ header div p {
     width: 50%;
 }
 
-.feedback input {
+.feedback input,
+.clients input {
     text-align: left;
     margin-top: 15px;
     border-radius: 3px;
@@ -384,7 +385,7 @@ header div p {
     color: gray;
 }
 
-.clients input {
+/*.clients input {
     text-align: center;
     color: rgb(24, 231, 231);
     border-color: rgb(24, 231, 231);
@@ -393,7 +394,7 @@ header div p {
     border: 1px solid;
     border-radius: 3px;
     padding: 10px;
-}
+}*/
 
 h6 {
     font-style: bold;
@@ -412,6 +413,7 @@ h6 {
 }
 
 /* Isaiah's part starts here */
+
 footer p {
   color:rgb(199, 179, 212);
   font-size:16px;
