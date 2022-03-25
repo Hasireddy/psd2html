@@ -384,7 +384,7 @@ header div p {
     color: gray;
 }
 
-input {
+.clients input {
     text-align: center;
     color: rgb(24, 231, 231);
     border-color: rgb(24, 231, 231);
@@ -412,36 +412,9 @@ h6 {
 }
 
 /* Isaiah's part starts here */
-
-h1
-{
-  font family : verdana;
-  font-weight:normal;
-  font-size : 50px;
-  color: white;
-  text-align: center;
-
-}
-
-h2
-{
-  color:green;
-  font-size:16px;
-  text-align:center;
-  text-decoration:underline;
-}
-body
-{
-  text-align: center;
-}
-
-footer p
-{
+footer p {
   color:rgb(199, 179, 212);
   font-size:16px;
-}
-img{
-  text-align: center;
 }
 
 footer{
@@ -533,18 +506,13 @@ footer p{
     text-align: right;
   }
 
-  input.form-submit-btn {
-    display: inline-flex;
-    background: #ccc url('/photoshop/design-assets/png/paper122.png') no-repeat center;
-    background-color: gray;
-    width: 50px;
+  .news-sub-input {
+    border: 1px solid grey;
+    background-color: transparent;
+    outline: none;
+    padding-left: 3px;
+    color: #FFF;
     height: 40px;
-    position: absolute;
-  }
-
-  .stay-touch {
-    display: flex;
-    flex-direction: column;
   }
 
   .contact-form {
@@ -554,10 +522,10 @@ footer p{
   .form-submit-btn{
     outline: none;
     border: none;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.6);
     margin-left: 10px;
     width: 75px;
-    height: 40px;  
+    height: 40px;
   }
 
   .studio-header {
